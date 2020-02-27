@@ -1,0 +1,165 @@
+.d-flex {
+  display: flex;
+}
+
+/*** logo ***/
+.top-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.logo-yaklass {
+  display: block;
+  width: 190px;
+  height: 40px;
+  background-image: url("../img/yaklass_logo_white-bg_w300.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+header#top-section {
+  position: relative;
+  overflow: hidden;
+  height: calc(100vh - 90px);
+  padding-top: 0px;
+  width: 100%;
+  min-width: 100%;
+  color: #fff;
+  background-color: #00a586;
+  z-index: 0;
+}
+
+header#top-section::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/children_bg.jpeg");
+  background-size: cover;
+  opacity: 0.05;
+}
+
+#top-section .container {
+  height: 100%;
+}
+
+/*** Promo block ***/
+.promo {
+  position: relative;
+  padding: 6% 0 10%;
+  justify-content: space-between;
+}
+
+.promo__txt-wrapper {
+  width: 65%;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.promo__title-1 {
+  font-size: 6em;
+  line-height: 1.3;
+}
+
+.promo__title-logo-icon {
+  width: 155px;
+  background-image: url("../img/yakl_logo_book.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.promo__title-logo {
+  font-size: 6em;
+}
+
+.promo__txt {
+  margin-bottom: 5%;
+  line-height: 1.2;
+}
+
+.promo__txt-line1 {
+  font-size: 6em;
+}
+
+.promo__txt-line2 {
+  font-size: 5em;
+}
+
+.promo__txt-aside {
+  position: absolute;
+  bottom: 5%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.promo__img-wrapper {
+  width: 25%;
+}
+
+.promo__img {
+  width: 100%;
+}
+/*** end promo ***/
+
+/* MAIN */
+.main-content-wrapper {
+  margin: 5% 0;
+}
+
+#Section-2 {
+  background-color:#00a586;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.custom-contacts {
+  padding-top: 50px;
+}
+
+.contact-link {
+  text-decoration: underline;
+}
+
+/*** FOOTER ***/
+footer {
+  background-color: #222;
+  width: 100%;
+  min-width: 100%;
+  position: relative;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.footerdivide {
+  background: #222;
+  height: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+footer ul.social-icons li {
+  display: inline-block;
+  float: none;
+  padding: 25px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  border-radius: 50%;
+}
+footer ul.social-icons li i {
+  font-size: 20px;
+}
+.color-white a,
+.color-white,
+.color-white h1,
+.color-white h2,
+.color-white h3,
+.color-white h4,
+.color-white h5,
+.color-white h6 {
+  color: #fff;
+}
