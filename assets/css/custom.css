@@ -103,6 +103,22 @@ header#top-section::after {
 .promo__img {
   width: 100%;
 }
+
+.btn-paid {
+  justify-content: center;
+}
+
+.btn-paid a {
+  display: inline-block;
+  padding: 15px 60px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #00aeef;
+
+}
 /*** end promo ***/
 
 /* MAIN */
@@ -111,7 +127,7 @@ header#top-section::after {
 }
 
 #Section-2 {
-  background-color:#00a586;
+  background-color: #00a586;
   height: auto;
   padding-bottom: 50px;
 }
